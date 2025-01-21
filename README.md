@@ -10,7 +10,7 @@ Il est composé de plusieurs 6 sous-dossiers structurés sous forme d'arborescen
 
 ## Contenu du dossier :
 - 6 sous-dossiers :
-    ### (DAY 1) :
+    #### (DAY 1) :
     - Le dossier [n°1](n°1/) contenant [le code source de la calculatrice](index.html) :
         - Un fichier **index.html** contenant [le code source de la calculatrice](n°1/index.html) ;
         - Un dossier nommé [css](n°1/css/) contenant la feuille de style [**style.css**](n°1/css/style.css) pour styliser la page ;
