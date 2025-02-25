@@ -1,71 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    box-sizing: border-box;
+}
+
 body {
-    background-color: skyblue;
-}
-
-header {
     background-color: lightskyblue;
+}
+
+.day-one-header, .day-one-nav,
+.day-one-tagline, .day-one-footer {
+    outline: 0.2rem solid rgb(95, 139, 214);
+}
+
+.day-one-header {
+    background-color: skyblue;
     text-align: center;
-    border: 0.3em solid rgb(95, 139, 214);
-    height: 140px;
+    width: 98%;
+    margin: 1.5vh auto;
+    padding-bottom: .5vh;
 }
 
-.tagline em {
-    font-weight: bolder;
-    font-size: larger;
-    position: relative;
-    left: 468px;
-    top: 20px;
-    color: rgb(7, 52, 149);
-    border: 0.3em solid rgb(95, 139, 214);
+.day-one-title {
+    font-size: 5.5vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
 }
 
-nav {
+.day-one-header a:hover {
+    transition: .6s;
+    color: white;
+}
+
+.day-one-nav,
+.day-one-tagline {
     background-color: rgb(165, 219, 240);
-    border: 0.2em solid rgb(96, 142, 222);
+}
+
+.day-one-nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 50px;
+    align-content: center;
+    font-weight: bold;
+    padding: 3vh 0;
 }
 
-nav a {
-    font-weight: bolder;
-    font-size: large;
-    position: relative;
-    top: 15px;
+.day-one-tagline {
+    width: 40%;
+    font-weight: 900;
+    font-size: 3vh;
+    color: rgb(7, 52, 149);
+    padding: 1.5vh 0;
+    margin: 3vh auto;
 }
 
 main {
-    background-color: rgb(127, 210, 243);
+    width: 98%;
+    margin: auto;
+}
+
+.day-one-description {
+    padding: 5vh 0;
+    text-align: center;
+}
+
+.day-one-first,
+.day-one-second {
+    padding: 4vh 0;
     display: flex;
-    flex-wrap: wrap;
-    padding-top: 2rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
 }
 
-.left-block {
-    width: 63%;
-    margin-bottom: auto;
-    margin-left: 1em;
+.day-one-second-text {
+    text-align: end;
 }
 
-h3 {
-    font-size: 30px;
-    font-weight: bolder;
+.day-one-first-text,
+.day-one-second-text {
+    width: 40%;
+
+    p {
+        font-size: 2.5vh;
+    }
 }
 
-p {
-    font-size: 20px;
-    font-weight: lighter;
-    text-align: start;
+.day-one-block-img {
+    width: 40%;
+}
+
+.day-one-block-img img {
     width: 100%;
+    max-width: 500px;
 }
 
-.right-block {
-    width: 27%;
-    position: relative;
-    left: 100px;
+.delimiter {
+    height: 0.2rem;
+    background-color: white;
+    margin: 4vh 0;
 }
 
-.right-block img {
-    padding-bottom: 2rem;
+.day-one-footer {
+    background-color: skyblue;
+    margin: 2vh auto;
+    text-align: center;
+    padding: 3vh 0;
+    width: 98%;
+}
+
+@media screen and (max-width: 1023px){
+    
 }
