@@ -10,8 +10,10 @@ body {
     background-color: lightskyblue;
 }
 
-.day-one-header, .day-one-nav,
-.day-one-tagline, .day-one-footer {
+.day-one-header,
+.day-one-nav,
+.day-one-tagline,
+.day-one-footer {
     outline: 0.2rem solid rgb(95, 139, 214);
 }
 
@@ -24,17 +26,35 @@ body {
 }
 
 .day-one-title {
-    font-size: 5.5vh;
+    font-size: 2.5vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    padding: 5vh 0;
+    padding: 4.5vh 0;
 }
 
 .day-one-header a:hover {
     transition: .6s;
     color: white;
+}
+
+.day-one-burger {
+    display: none;
+    cursor: pointer;
+    align-self: center;
+}
+
+.day-one-burger-bar {
+    display: block;
+    height: 5px;
+    width: 45px;
+    background-color: white;
+    transition: .5s ease;
+}
+
+.day-one-burger-bar:nth-child(2) {
+    margin: .5rem 0;
 }
 
 .day-one-nav,
@@ -66,8 +86,9 @@ main {
 }
 
 .day-one-description {
-    padding: 5vh 0;
+    padding: 3vh 0;
     text-align: center;
+    font-size: 4vh;
 }
 
 .day-one-first,
@@ -97,7 +118,7 @@ main {
 
 .day-one-block-img img {
     width: 100%;
-    max-width: 500px;
+    max-width: 560px;
 }
 
 .delimiter {
@@ -114,6 +135,78 @@ main {
     width: 98%;
 }
 
-@media screen and (max-width: 1023px){
-    
+@media screen and (max-width: 1023px) {
+
+    .day-one-first,
+    .day-one-second {
+        display: block;
+    }
+
+    .day-one-first-text,
+    .day-one-second-text {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .day-one-first .day-one-first-text,
+    .day-one-second .day-one-block-img {
+        padding-bottom: 3vh;
+    }
+
+    .day-one-title {
+        h1 {
+            display: inline-flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        a {
+            width: 70%;
+            text-align: left;
+        }
+
+        img {
+            display: none;
+        }
+    }
+
+    .day-one-nav {
+        flex-flow: column wrap;
+        width: 50%;
+        position: fixed;
+        top: 8px;
+        left: -100%;
+        transition: .5s;
+
+        a:not(a:last-child) {
+            padding-bottom: 5vh;
+        }
+
+    }
+
+    .day-one-nav.active {
+        left: 0;
+    }
+
+    .day-one-block-img {
+        margin: auto;
+    }
+
+    .day-one-burger {
+        display: block;
+    }
+
+    .day-one-burger.active .day-one-burger-bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .day-one-burger.active .day-one-burger-bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .day-one-burger.active .day-one-burger-bar:nth-child(3) {
+        transform: translateY(-17px) rotate(-45deg);
+    }
 }
