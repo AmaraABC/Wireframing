@@ -21,7 +21,7 @@ Il est composé de plusieurs 6 sous-dossiers structurés sous forme d'arborescen
         - Un fichier **index.html** contenant [la structure principale de la page](n°2/index.html) ;
         - Un dossier nommé [css](n°2/css/) contenant la feuille de style [**style.css**](n°2/css/style.css) pour styliser la page ;
         - Un dossier nommé [image](n°2/image/) contenant [une image de substitution](n°2/image/OWL.jpg) ;
-        - Un futur dossier "php" qui va contenir un fichier PHP, pour faire fonctionner la barre de recherche du template.
+        - Un futur dossier "js" qui va contenir un fichier JavaScript, pour faire fonctionner la barre de recherche du template.
 
 ## Roadmap du dossier :
 - Ajouter de nouveaux éléments au niveau du fichier [index.html](n°1/index.html) (sections, ...) ;
