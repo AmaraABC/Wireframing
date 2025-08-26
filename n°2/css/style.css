@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-color: rgb(69, 67, 67);
+}
+
+header {
+    background-color: rgb(109, 103, 103);
+    text-align: center;
+    padding: 1.75rem 0 3.5rem 0;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: clamp(24px, 2.734vw, 32px);
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+}
+
+.header_i {
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    text-align: start;
+    width: 50%;
+}
+
+.searchbar {
+    align-self: start;
+}
+
+#searchbar {
+    width: clamp(280px, 39.4vw, 540px);
+    padding: .5rem .75rem;
+}
+
+main {
+    background-color: rgb(129, 125, 125);
+}
+
+#first_part,
+.day-two-mini-section {
+    margin: auto;
+    padding: 3rem 0;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.owl_footage img,
+#last_part img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.snippets {
+    text-align: start;
+    align-self: center;
+    width: 40%;
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+#second_part {
+    background-color: rgb(175, 174, 174);
+}
+
+#second_part img {
+    border-radius: 45deg;
+    margin-top: 1rem;
+}
+
+#second_part p {
+    font-size: clamp(4px, .6vw, 8px);
+    text-align: start;
+}
+
+#second_part a {
+    text-decoration: none;
+    color: black;
+}
+
+#last_part {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4rem 0;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.last-text-right,
+.last-text-left {
+    text-align: justify;
+    align-self: center;
+    font-size: clamp(12px, 1vw, 14px);
+}
+
+@media screen and (max-width: 879px) {
+
+    .header_i,
+    #first_part,
+    .day-two-mini-section {
+        display: block;
+    }
+
+    .text,
+    .snippets {
+        text-align: center;
+        width: 100%;
+    }
+
+    .owl_footage:not(.day-two-mini-section .owl_footage) {
+        padding-bottom: 2.25rem;
+    }
+
+    .owl_footage {
+        text-align: center;
+    }
+
+    form {
+        margin-top: 1.5rem;
+    }
+
+    .day-two-mini-section .owl_footage {
+        padding-top: 2.25rem;
+    }
+
+    .searchbar {
+        align-self: center;
+    }
+}
