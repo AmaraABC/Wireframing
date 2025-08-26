@@ -15,14 +15,13 @@ Il est composé de plusieurs 6 sous-dossiers structurés sous forme d'arborescen
         - Un fichier **index.html** contenant [la structure principale de la page](n°1/index.html) ;
         - Un dossier nommé [css](n°1/css/) contenant la feuille de style [**style.css**](n°1/css/style.css) pour styliser la page ;
         - Un dossier nommé [image](n°1/image/) contenant [une image de substitution](n°1/image/OWL.jpg) ;
-        - Un dossier [html](n°1/html/) vide.
     
     #### (DAY 2) :
-    - Le dossier [n°1](n°1/) contenant :
+    - Le dossier [n°1](n°2/) contenant :
         - Un fichier **index.html** contenant [la structure principale de la page](n°2/index.html) ;
-        - Un dossier nommé [css](n°1/css/) contenant la feuille de style [**style.css**](n°2/css/style.css) pour styliser la page ;
-        - Un dossier nommé [image](n°1/image/) contenant [une image de substitution](n°2/image/OWL.jpg) ;
-        - Un dossier [html](n°2/html/) vide.
+        - Un dossier nommé [css](n°2/css/) contenant la feuille de style [**style.css**](n°2/css/style.css) pour styliser la page ;
+        - Un dossier nommé [image](n°2/image/) contenant [une image de substitution](n°2/image/OWL.jpg) ;
+        - Un futur dossier "php" qui va contenir un fichier PHP, pour faire fonctionner la barre de recherche du template.
 
 ## Roadmap du dossier :
 - Ajouter de nouveaux éléments au niveau du fichier [index.html](n°1/index.html) (sections, ...) ;
@@ -32,4 +31,4 @@ Il est composé de plusieurs 6 sous-dossiers structurés sous forme d'arborescen
     - Palettes de couleurs cohérentes pour mieux cerner les wireframes ;
     - Possible ajout d'animations (boutons, curseur de la souris sur un élément...) pour rajouter de l'attrait à ces créations.
 
-- Essayer de rendre ces wireframes responsives, pour un meilleur aperçu sur différents appareils/supports (ordinateurs, smartphones, tablettes...).
+- Essayer de rendre ces wireframes responsives/adaptatives, pour un meilleur aperçu sur différents appareils/supports (ordinateurs, smartphones, tablettes...).
