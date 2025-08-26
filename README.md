@@ -17,7 +17,7 @@ Il est composé de plusieurs 6 sous-dossiers structurés sous forme d'arborescen
         - Un dossier nommé [image](n°1/image/) contenant [une image de substitution](n°1/image/OWL.jpg) ;
     
     #### (DAY 2) :
-    - Le dossier [n°1](n°2/) contenant :
+    - Le dossier [n°2](n°2/) contenant :
         - Un fichier **index.html** contenant [la structure principale de la page](n°2/index.html) ;
         - Un dossier nommé [css](n°2/css/) contenant la feuille de style [**style.css**](n°2/css/style.css) pour styliser la page ;
         - Un dossier nommé [image](n°2/image/) contenant [une image de substitution](n°2/image/OWL.jpg) ;
